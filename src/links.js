@@ -1,9 +1,9 @@
-export const websiteLink = '#';
-export const tgLink = '#';
-export const xLink = '#';
+export const websiteLink = 'http://babyoscar.org/';
+export const tgLink = 'https://t.me/babyoscareth';
+export const xLink = 'https://x.com/baby0scar';
 export const dexScreenerLink = '#';
 export const dexToolsLink = '#';
 export const uniSwapLink = '#';
 export const buySellTax = '0/0';
-export const supply = 'TBA';
-export const CA = 'TBA';
+export const supply = ' 896.81M';
+export const CA = '0x000..............ab01';

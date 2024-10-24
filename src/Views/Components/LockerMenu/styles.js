@@ -8,6 +8,13 @@ const DesktopMainMenu = styled(Container)`
   justify-content: space-between;
   align-items: center;
 
+  & div:last-child{
+    flex-basis: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
   @media (max-width: 899px) {
     display: none;
   }
@@ -24,11 +31,10 @@ const MobileMainMenu = styled.div`
 const SiteLogo = styled.img`
   max-width: 100%;
   height: auto;
+  width: 100px;
 `;
 const MenuLink = styled(Link)`
   font-size: max(15px, 17px);
-  font-family: "poppins-light";
-  font-weight: bolder;
   color: ${ (props) => props.theme.textPrimary};
   text-transform: uppercase;
   text-decoration: none;
@@ -44,14 +50,6 @@ const MenuLink = styled(Link)`
     display: block;
     padding: ${ (props) => props.p? props.p: '15px 0 15px 20px'};
     text-align: left;
-  }
-  &:last-child {
-    border-width: 0px;
-    background: red;
-    width: calc(100% - 40px);
-    margin: 15px auto;
-    padding: 10px 20px;
-    text-align: center;
   }
 `;
 

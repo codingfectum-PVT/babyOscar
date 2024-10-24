@@ -7,9 +7,9 @@ import MainPage from '../Views/Pages/Main';
 const getActiveTheme = (themeMode) => {
   console.log('themeMode: ', themeMode)
   return createTheme({
-    pageColor: themeMode === 'true' || !themeMode ? '#efefef': '#161616',
+    pageColor: themeMode === 'true' || !themeMode ? '#efefef': '#40B149',
 
-    bgPrimary: themeMode === 'true' || !themeMode ? '#efefef': '#161616',
+    bgPrimary: themeMode === 'true' || !themeMode ? '#efefef': '#40B149',
     bgSecondary: themeMode === 'true' || !themeMode ? 'green': 'red',
 
     textPrimary: themeMode === 'true' || !themeMode ? '#000000': '#ffffff',

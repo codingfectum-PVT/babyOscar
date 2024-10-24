@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: "primary";
-  src: url(./assets/fonts/RifficFree-Bold.woff);
+  src: url(./assets/fonts/PatrickHand-Regular.woff);
 }
 
 *{font-family: 'primary' !important ; color: #fff;}
@@ -41,5 +41,56 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.MuiTypography-h1{
+  /* font-family: 'heading' !important; */
+  font-size: 120px !important;
+  color: #FFDA0B;
+  text-transform: uppercase;
+}
+
+.MuiTypography-h5{
+  font-size: 40px !important;
+  color: #FFDA0B;
+  margin-top: -15px !important;
+  text-transform: uppercase;
+}
+.MuiTypography-h2{
+  font-size: 70px !important;
+  text-transform: uppercase;
+  color: #FFDA0B;
+}
+.MuiTypography-h4{
+  color: #FFDA0B;
+  font-size: 28px !important;
+}
+.MuiTypography-body2{
+  font-size: 18px !important;
+}
+
+.MuiTypography-body2.yellow{
+  color: #FFDA0B !important;
+}
+@media screen and (max-width: 900px) {
+  .MuiTypography-h2{
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  
+  .MuiTypography-h1{
+    font-size: 30px !important;
+  }
+  .MuiTypography-h2{
+    font-size: 35px !important;
+  }
+  .MuiTypography-h4{
+    font-size: 22px !important;
+  }
+  .MuiTypography-body2{
+    font-size: 16px !important;
   }
 }
